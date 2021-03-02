@@ -4,6 +4,7 @@
     --main-button:#f8f9fa;
     --footer-background:#f2f2f2;
     --footer-color:#70757a;
+    --google-blue:#1a73e8;
 }
 *{
     box-sizing: border-box;
@@ -33,19 +34,58 @@ header nav div{
 }
 header nav div ul{
     display: flex;
-    justify-content: space-evenly;
     list-style: none;
     align-items: center;
+    font-size: 1.0rem;
+    font-weight: 700;
+}
+header nav .nav__left ul{
+    justify-content: flex-start;
+}
+header nav .nav__left ul li{
+    margin-right: 20px;
+}
+header nav .nav__left .all-item{
+    padding-bottom: 5px;
+    color: var(--google-blue);
+    border-bottom: 2px solid var(--google-blue);
+}
+header nav .nav__right ul{
+    justify-content: flex-end;
+}
+header nav .nav__right ul li{
+    margin-left: 20px;
 }
 header nav div ul li a{
+    color: var(--footer-color);
     text-decoration: none;
+    
 }
-header nav .nav__left li .burger-menu{
-    width: 50px;
-    height: 50px;
+header nav .nav__left .burger-menu{
+    display: block;
+    width: 16px;
+    height: 16px;
     background-image: url(./assets/icons/burger-menu.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+header nav .nav__right .dots-menu{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(./assets/icons/apps-menu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header nav .nav__right .sign-in-button{
+    background-color:var(--google-blue);
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
 }
 
