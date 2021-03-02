@@ -88,4 +88,45 @@ header nav .nav__right .sign-in-button{
     color: #fff;
     border: none;
 }
-
+main{
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+}
+main .main-container{
+    width: 90%;
+    min-width: 288px;
+    margin: 0 auto;
+}
+main .main-container .main-logo{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    max-width: 275px;
+    margin-top: 90px;
+}
+main .main-container .main__search-bar{
+    margin-top: 30px;
+    border: 1px solid #dfe1e5;
+}
+main .main-container .search-icon{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url(./assets/icons/loupe.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main .main-container .search-input{
+    display: inline-block;
+}
+main .main-container .mic-icon{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(./assets/icons/mic.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
