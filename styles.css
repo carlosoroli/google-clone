@@ -104,13 +104,21 @@ main .main-container .main-logo{
     margin: 0 auto;
     max-width: 275px;
     margin-top: 90px;
+    /* margin-bottom: 30px; */
 }
 main .main-container .main__search-bar{
+    width: 100%;
+    max-width: 480px;
+    height: 40px;
+    margin: 0 auto;
     margin-top: 30px;
     border: 1px solid #dfe1e5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 main .main-container .search-icon{
-    display: inline-block;
     width: 15px;
     height: 15px;
     background-image: url(./assets/icons/loupe.svg);
@@ -118,11 +126,11 @@ main .main-container .search-icon{
     background-repeat: no-repeat;
     background-position: center;
 }
-main .main-container .search-input{
-    display: inline-block;
+main .main-container .main__search-input{
+    width: 75%;
+    border: none;
 }
 main .main-container .mic-icon{
-    display: inline-block;
     width: 18px;
     height: 18px;
     background-image: url(./assets/icons/mic.svg);
