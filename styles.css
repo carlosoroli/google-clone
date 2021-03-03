@@ -18,7 +18,8 @@ html{
 header{
     width: 100%;
     min-width: 320px;
-    height: 50px;
+    /* height: 50px; */
+    height: 10vh;
 }
 header nav{
     width: 90%;
@@ -91,7 +92,7 @@ header nav .nav__right .sign-in-button{
 main{
     width: 100%;
     min-width: 320px;
-    height: 60vh;
+    height: 70vh;
 }
 main .main-container{
     width: 90%;
@@ -103,7 +104,7 @@ main .main-container .main-logo{
     width: 50%;
     margin: 0 auto;
     max-width: 275px;
-    margin-top: 90px;
+    padding-top: 90px;
     /* margin-bottom: 30px; */
 }
 main .main-container .main__search-bar{
@@ -137,4 +138,43 @@ main .main-container .mic-icon{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+footer{
+    width: 100%;
+    min-width: 320px;
+    height: 20vh;
+    /* height: calc(100vh - 75vh -50px); */
+}
+footer .footer__country{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    background-color: var(--footer-background);
+    border-bottom: 1px solid #e4e4e4;
+}
+footer .footer__country p{
+    padding-left: 10px;
+    font-size: 1.4rem;
+    color: var(--footer-color);
+}
+footer .footer__info{
+    width: 100%;
+    height: 65%;
+    background-color: var(--footer-background);
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+footer .footer__info a{
+    text-decoration: none;
+    color: var(--footer-color);
+    font-size: 1.4rem;
+}
+footer .footer__info .info-left{
+    width: 320px;
+    /* height: 50%; */
+}
+footer .footer__info .info-right{
+    min-width: 320px;
+    /* height: 50%; */
 }
