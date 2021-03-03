@@ -91,7 +91,7 @@ header nav .nav__right .sign-in-button{
 main{
     width: 100%;
     min-width: 320px;
-    height: auto;
+    height: 60vh;
 }
 main .main-container{
     width: 90%;
