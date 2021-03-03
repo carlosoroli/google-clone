@@ -155,7 +155,7 @@ footer .footer__country{
 }
 footer .footer__country p{
     padding-left: 10px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: var(--footer-color);
 }
 footer .footer__info{
@@ -171,10 +171,18 @@ footer .footer__info a{
     font-size: 1.4rem;
 }
 footer .footer__info .info-left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     width: 320px;
-    /* height: 50%; */
+    height: 50%;
+    margin: 0 auto;
 }
 footer .footer__info .info-right{
-    min-width: 320px;
-    /* height: 50%; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 320px;
+    height: 50%;
+    margin: 0 auto;
 }
