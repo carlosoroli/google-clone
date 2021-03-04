@@ -46,3 +46,26 @@ header .desktop-nav ul .sign-up{
     padding: 8px 20px;
     border-radius: 5px;
 }
+main .main__buttons-container{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 35px;
+    justify-content: center;
+}
+main .main__buttons-container button{
+    font-size: 1.4rem;
+    background-color: var(--main-button);
+    color: var(--main-color);
+    margin-left: 15px;
+    border:none;
+    padding: 10px 20px;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+}
+main .main__buttons-container button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
