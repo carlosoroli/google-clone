@@ -7,25 +7,34 @@
     <meta name="description" content="Google clone with html and css">
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./desktop.css" media="(min-width: 800px)">
+    
     <title>Google</title>
 </head>
 <body>
     <header>
-        <nav>
-            <div class="nav__left">
+        <nav class="mobile-nav">
+            <div class="mobile-nav__left">
                 <ul>
-                    <li><a href=""><span class="burger-menu"></span></a>
+                    <li><a href="#"><span class="burger-menu"></span></a>
                     </span></li>
-                    <li><a class="all-item" href="">ALL</a></li>
-                    <li><a href="">IMAGES</a></li>
+                    <li><a class="all-item" href="#">ALL</a></li>
+                    <li><a href="#">IMAGES</a></li>
                 </ul>
             </div>
-            <div class="nav__right">
+            <div class="mobile-nav__right">
                 <ul>
-                    <li><a href=""><span class="dots-menu"></span></a></span></li>
+                    <li><a href="#"><span class="dots-menu"></span></a></span></li>
                     <li><button class="sign-in-button">Sign in</button></li>
                 </ul>
             </div>
+        </nav>
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <li><a class="apps-icon" href="#"><span></span></a></li>
+                <li><a class="sign-up" href="#">Sign up</a></li>
+            </ul>  
         </nav>
     </header>
     <main>
@@ -44,14 +53,14 @@
         </section>
         <section class="footer__info">
             <div class="info-left">
-                <a href="">Settings</a>
-                <a href="">Privacy</a>
-                <a href="">Terms</a>
+                <a href="#">Settings</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
             </div>
             <div class="info-right">                
-                <a href="">Advertising</a>
-                <a href="">Business</a>
-                <a href="">About</a>
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">About</a>
             </div>
         </section>
     </footer>

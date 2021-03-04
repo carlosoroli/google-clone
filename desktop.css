@@ -1,1 +1,48 @@
-fml
+:root{
+    --main-color:#3c4043;
+    --main-background:#ffffff;
+    --main-button:#f8f9fa;
+    --footer-background:#f2f2f2;
+    --footer-color:#70757a;
+    --google-blue:#1a73e8;
+}
+header .mobile-nav{
+    display: none;
+}
+header .desktop-nav{
+    display: flex;
+    width: 95%;
+    min-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .desktop-nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+header .desktop-nav ul a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 1.2rem;
+}
+header .desktop-nav ul .apps-icon{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./assets/icons/apps-menu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .desktop-nav ul .sign-up{
+    background-color: var(--google-blue);
+    color:var(--main-background);
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 8px 20px;
+    border-radius: 5px;
+}

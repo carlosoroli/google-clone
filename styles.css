@@ -15,13 +15,16 @@ html{
     font-size: 62.5%;
     font-family: Arial, Helvetica, sans-serif;
 }
+.desktop-nav{
+    display: none;
+}
 header{
     width: 100%;
     min-width: 320px;
     /* height: 50px; */
     height: 10vh;
 }
-header nav{
+header .mobile-nav{
     width: 90%;
     min-width: 288px;
     margin: 0 auto;
@@ -30,39 +33,39 @@ header nav{
     justify-content: space-between;
     align-items: center;
 }
-header nav div{
+header .mobile-nav div{
     width: 50%;
 }
-header nav div ul{
+header .mobile-nav div ul{
     display: flex;
     list-style: none;
     align-items: center;
     font-size: 1.0rem;
     font-weight: 700;
 }
-header nav .nav__left ul{
+header .mobile-nav .mobile-nav__left ul{
     justify-content: flex-start;
 }
-header nav .nav__left ul li{
+header .mobile-nav .mobile-nav__left ul li{
     margin-right: 20px;
 }
-header nav .nav__left .all-item{
+header .mobile-nav .mobile-nav__left .all-item{
     padding-bottom: 5px;
     color: var(--google-blue);
     border-bottom: 2px solid var(--google-blue);
 }
-header nav .nav__right ul{
+header .mobile-nav .mobile-nav__right ul{
     justify-content: flex-end;
 }
-header nav .nav__right ul li{
+header .mobile-nav .mobile-nav__right ul li{
     margin-left: 20px;
 }
-header nav div ul li a{
+header .mobile-nav div ul li a{
     color: var(--footer-color);
     text-decoration: none;
     
 }
-header nav .nav__left .burger-menu{
+header .mobile-nav .mobile-nav__left .burger-menu{
     display: block;
     width: 16px;
     height: 16px;
@@ -71,7 +74,7 @@ header nav .nav__left .burger-menu{
     background-repeat: no-repeat;
     background-size: cover;
 }
-header nav .nav__right .dots-menu{
+header .mobile-nav .mobile-nav__right .dots-menu{
     display: block;
     width: 16px;
     height: 16px;
@@ -80,7 +83,7 @@ header nav .nav__right .dots-menu{
     background-repeat: no-repeat;
     background-size: cover;
 }
-header nav .nav__right .sign-in-button{
+header .mobile-nav .mobile-nav__right .sign-in-button{
     background-color:var(--google-blue);
     font-weight: 500;
     font-size: 1.4rem;
